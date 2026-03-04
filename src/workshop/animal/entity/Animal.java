@@ -3,9 +3,11 @@ package workshop.animal.entity;
 public abstract class Animal {
 	protected int legs;
 	
-	public Animal() {
-		
-	}
+	// 기본 생성자
+//	public Animal() {
+//		
+//	}
+	
 	protected Animal(int legs) {
 		this.legs = legs;
 	}
